@@ -10,7 +10,7 @@ const Header = () => {
     threshold: 100,
   });
 
-  const pages = ["Home", "About", "Resume", "Portfolio", "Contact"];
+  const pages = ["Home", "About", "Resume", "Skills", "Portfolio", "Contact"];
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
@@ -27,7 +27,7 @@ const Header = () => {
         elevation={trigger ? 4 : 0}
         sx={{ width: "100%" }}
       >
-        <Toolbar sx={{ width: "75%", left: "12%" }}>
+        <Toolbar sx={{ width: "90%", left: "8%" }}>
           <Box flexGrow={9}>
             <Button
               variant="text"

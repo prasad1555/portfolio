@@ -38,12 +38,12 @@ const Home = () => {
             sx={{
               height: "100vh",
               alignItems: "center",
-              width: "1200px",
+              width: "75%",
               display: "flex",
               gap: 5,
             }}
           >
-            <Paper
+            {/* <Paper
               sx={{
                 m: 0,
                 p: 0.5,
@@ -55,7 +55,7 @@ const Home = () => {
               elevation={2}
             >
               <List sx={{ m: 0, p: 0 }}>
-                <ListItem sx={{ my: 1, p: 0 }}>
+                <ListItem sx={{ my: 0, p: 0 }}>
                   <IconButton>
                     <Tooltip
                       title="Facebook"
@@ -78,7 +78,7 @@ const Home = () => {
                     </Tooltip>
                   </IconButton>
                 </ListItem>
-                <ListItem sx={{ mb: 1, p: 0 }}>
+                <ListItem sx={{ mb: 0, p: 0 }}>
                   <IconButton>
                     <Tooltip
                       title="Instagram"
@@ -101,7 +101,7 @@ const Home = () => {
                     </Tooltip>
                   </IconButton>
                 </ListItem>
-                <ListItem sx={{ mb: 1, p: 0 }}>
+                <ListItem sx={{ mb: 0, p: 0 }}>
                   <IconButton>
                     <Tooltip
                       title="Linked In"
@@ -125,7 +125,7 @@ const Home = () => {
                   </IconButton>
                 </ListItem>
               </List>
-            </Paper>
+            </Paper> */}
             <Box>
               <Typography variant="h5" fontWeight={600} color="#2fb4ae" mb={1}>
                 👋 Hello i'am
@@ -134,28 +134,18 @@ const Home = () => {
                 variant="h2"
                 fontWeight={900}
                 color="#083d3d"
-                sx={{ fontFamily: "sincopa, sans-serif !important" }}
+                textTransform="uppercase"
+                lineHeight={"4rem"}
               >
                 Sivaprasad Aluri
               </Typography>
-              <Typography variant="h6" color="#16193d" fontWeight={600}>
-                Frontend Developer
+              <Typography variant="subtitle1" color="#083d3d" fontWeight={400}>
+                A Frontend Developer, Based in Hyderabad, India.
               </Typography>
-              <Typography
-                variant="body1"
-                maxWidth="500px"
-                mt={2}
-                color={"#828282"}
-              >
-                Product Designer who crafts beautiful, minimal and usable
-                interfaces.I spend most of my time understanding human computer
-                interactions. leading the Design Team at Themesdesign.in
-              </Typography>
-              <Box display="flex" gap={2} mt={5}>
+              <Box display="flex" gap={2} mt={2}>
                 <Button variant="contained" sx={{ color: "#fff" }}>
-                  Download CV
+                  CONTACT ME
                 </Button>
-                <Button variant="outlined"> Contact Me </Button>
               </Box>
             </Box>
           </Box>
